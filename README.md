@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+First, run the development server:
 
-In the project directory, you can run:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### `npm start`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### `npm test`
+## Laporan Praktikum
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+|  | Pemrograman Berbasis Framework 2025 |
+|--|--|
+| NIM |  2241720067|
+| Nama |  Febby Mathelda Silvya Mooy |
+| Kelas | TI - 3D |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Praktikum 1
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  Pastikan Node.js dan npm sudah terinstal di komputer Anda. Anda dapat memeriksanya dengan 
+menjalankan perintah berikut di terminal atau command prompt:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Buat direktori baru untuk proyek React Anda:
 
-### `npm run eject`
+3. Inisialisasi proyek React dengan menjalankan perintah berikut:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![alt text](image.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Jalankan aplikasi React dengan perintah: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![alt text](<WhatsApp Image 2025-02-19 at 09.20.30_93be95bb.jpg>)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Praktikum 2 Membuat Komponen React
 
-## Learn More
+1. Buka file src/App.js di text editor Anda. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Ganti kode di dalamnya dengan kode berikut untuk membuat komponen sederhana:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Hasil:
 
-### Code Splitting
+![alt text](image-1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Simpan file dan lihat perubahan di browser. Anda akan melihat tampilan sederhana dengan 
+header, konten utama, dan footer.
 
-### Analyzing the Bundle Size
+Hasil pada browser:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![alt text](image-2.png)
 
-### Making a Progressive Web App
+### Praktikum 3 Menggunakan JSX untuk membuat komponen dinamis
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Buat file baru di direktori src dengan nama Counter.js.
 
-### Advanced Configuration
+2. Tambahkan kode berikut untuk membuat komponen Counter yang dinamis: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![alt text](image-3.png)
 
-### Deployment
+3. Buka file src/App.js dan impor komponen Counter: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![alt text](image-4.png)
 
-### `npm run build` fails to minify
+4. Tambahkan komponen Counter ke dalam komponen App: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](image-5.png)
+
+5. Simpan file dan lihat perubahan di browser. Anda akan melihat tombol "Tambah" yang dapat 
+meningkatkan hitungan saat diklik. 
+
+Hasil:
+
+Sebelum mengklik tombol "Tambah"
+
+![alt text](image-6.png)
+
+Sesudah mengklik tombol "Tambah"
+
+![alt text](image-7.png)
+
+### Praktikum 4 Menggunakan Props untuk Mengirim Data
+
+1. Buat file baru di direktori src dengan nama Greeting.js. 
+
+2. Tambahkan kode berikut untuk membuat komponen Greeting yang menerima props: 
+
+![alt text](image-10.png)
+
+3. Buka file src/App.js dan impor komponen Greeting:
+
+![alt text](image-8.png)
+
+4. Tambahkan komponen Greeting ke dalam komponen App dan kirim props name: 
+
+![alt text](image-9.png)
+
+5. Simpan file dan lihat perubahan di browser. Anda akan melihat pesan "Halo, John!" yang 
+ditampilkan oleh komponen Greeting.
+
+Hasil:
+
+![alt text](image-11.png)
+
+### Praktikum 5 Menggunakan state untuk mengelola data
+
+1. Buka file src/App.js dan tambahkan kode berikut untuk membuat komponen yang mengelola state: 
+
+![alt text](image-12.png)
+
+2. Tambahkan komponen example ke dalam komponen App:
+
+![alt text](image-13.png)
+
+3. Simpan file dan lihat perubahan di browser. Anda akan melihat form input yang dapat 
+mengupdate state dan menampilkan data yang dimasukkan. 
+
+Hasil:
+
+sebelum menambah keterangan:
+
+![alt text](image-14.png)
+
+sesudah menambah keterangan
+
+![alt text](image-15.png)
+
